@@ -1,0 +1,639 @@
+2024-12-05 22:50:25 : error: uncaughtException: Cannot access 'PORT' before initialization
+ReferenceError: Cannot access 'PORT' before initialization
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:32:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+2024-12-05 22:50:35 : error: Table 'demo.users' doesn't exist Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1240:12)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:33)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 22:50:35 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 22:50:45 : error: Table 'demo.users' doesn't exist Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1240:12)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:33)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 22:50:45 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 22:51:07 : error: Unknown column 'created_at' in 'field list' Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1240:12)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:33)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 22:51:07 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 22:52:48 : error: Unknown column 'created_at' in 'field list' Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1240:12)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:33)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 22:52:48 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 22:53:16 : error: Unknown column 'created_at' in 'field list' Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async users.findAll (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1140:21)
+    at async users.findOne (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\model.js:1240:12)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:33)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 22:53:16 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:10:45 : error: uncaughtException: Unexpected token '}'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:11
+    const login = await models.sequelize.query(`select * from users where email = ${} And password = ?`)
+                                                                                    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:8:30)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:11:05 : error: uncaughtException: Unexpected token '}'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:11
+    const login = await models.sequelize.query(`select * from users where email = ${loginData.uname} And password = ${loginData.}`)
+                                                                                                                                ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:8:30)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:11:48 : error: Cannot read properties of undefined (reading 'query') TypeError: Cannot read properties of undefined (reading 'query')
+    at userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:11:42)
+    at userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:24)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:175:3)
+2024-12-05 23:11:48 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:12:16 : error: uncaughtException: Cannot find module 'se'
+Require stack:
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js
+- C:\Users\Disha\Desktop\2024\ProductNode\index.js
+Error: Cannot find module 'se'
+Require stack:
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js
+- C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js
+- C:\Users\Disha\Desktop\2024\ProductNode\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:5:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2024-12-05 23:12:26 : error: Cannot read properties of undefined (reading 'query') TypeError: Cannot read properties of undefined (reading 'query')
+    at userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:42)
+    at userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:24)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:175:3)
+2024-12-05 23:12:26 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:12:44 : error: sequelize.query is not a function TypeError: sequelize.query is not a function
+    at userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:35)
+    at userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:24)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:175:3)
+2024-12-05 23:12:44 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:13:25 : error: Cannot read properties of undefined (reading 'query') TypeError: Cannot read properties of undefined (reading 'query')
+    at userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:42)
+    at userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:24)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:175:3)
+2024-12-05 23:13:25 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:15:17 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com And password = 5995' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:19)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 23:15:17 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:18:40 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com And password = 999' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:19)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 23:18:40 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:21:11 : error: uncaughtException: Unexpected token '}'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:11
+      `select * from users where email = ${loginData.email} And password = ${loginData.password}`,{type:sequelize.}
+                                                                                                                  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:8:30)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:21:43 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com And password = 999' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userLoginService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:10:19)
+    at async userLoginController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:12:18)
+2024-12-05 23:21:43 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:25:27 : error: uncaughtException: Unexpected token 'null'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:20
+    if (login.length > 0 null) {
+                         ^^^^
+
+SyntaxError: Unexpected token 'null'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:8:30)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:31:37 : error: uncaughtException: Identifier 'userLoginService' has already been declared
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:29
+const userLoginService = async (loginData) => {
+      ^
+
+SyntaxError: Identifier 'userLoginService' has already been declared
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:8:30)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:37:14 : error: uncaughtException: userregis is not defined
+ReferenceError: userregis is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:4:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:39:22 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?)' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userRegistrationService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:26)
+    at async userRegistrationontroller (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:15:18)
+2024-12-05 23:39:22 : error: ------------ ERROR FROM : userLoginService ------------
+2024-12-05 23:39:52 : error: uncaughtException: userRegistratiocnontroller is not defined
+ReferenceError: userRegistratiocnontroller is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:39:53 : error: uncaughtException: userRegistratiocontroller is not defined
+ReferenceError: userRegistratiocontroller is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:39:57 : error: uncaughtException: userRegistrationcontroller is not defined
+ReferenceError: userRegistrationcontroller is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:40:02 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:40:13 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:40:30 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:40:43 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:41:14 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:41:16 : error: uncaughtException: userRegistrationController is not defined
+ReferenceError: userRegistrationController is not defined
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.routes.js:7:34)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\index.js:26:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+2024-12-05 23:43:12 : error: uncaughtException: Unexpected identifier
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:12
+        replacements: { email: loginData.email,uname password: loginData.password },
+                                                     ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:43:14 : error: uncaughtException: Unexpected identifier
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:12
+        replacements: { email: loginData.email,uname:lo password: loginData.password },
+                                                        ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:43:19 : error: uncaughtException: Unexpected identifier
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:12
+        replacements: { email: loginData.email,uname:login password: loginData.password },
+                                                           ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:43:32 : error: loginData is not defined ReferenceError: loginData is not defined
+    at userRegistrationService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13:18)
+    at userRegistrationController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:15:24)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\express\lib\router\index.js:175:3)
+2024-12-05 23:43:32 : error: ------------ ERROR FROM : userRegistrationService ------------
+2024-12-05 23:43:47 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?)' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userRegistrationService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:26)
+    at async userRegistrationController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:15:18)
+2024-12-05 23:43:47 : error: ------------ ERROR FROM : userRegistrationService ------------
+2024-12-05 23:45:25 : error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?,?,?)' at line 1 Error
+    at Query.run (C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Disha\Desktop\2024\ProductNode\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userRegistrationService (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:9:26)
+    at async userRegistrationController (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:15:18)
+2024-12-05 23:45:25 : error: ------------ ERROR FROM : userRegistrationService ------------
+2024-12-05 23:45:56 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13
+          email: userData.email,
+               ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:00 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13
+          (email: userData.email),
+                ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:01 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13
+          email: userData.email,
+               ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:16 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:14
+          : userData.uname,
+          ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:18 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13
+          email: userData.email,
+               ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:31 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:14
+          : userData.uname,
+          ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:46:35 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:15
+          : userData.password,
+          ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:49:43 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:12
+        replacements:[ userData.email, password: loginData.password },
+                                               ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:49:48 : error: uncaughtException: Unexpected token ':'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:13
+        type: sequelize.QueryTypes.SELECT,
+            ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:49:58 : error: uncaughtException: Unexpected token 'const'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:19
+    const registerUser = await sequelize.query(
+    ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:50:02 : error: uncaughtException: Unexpected token 'const'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:19
+    const registerUser = await sequelize.query(
+    ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:50:43 : error: uncaughtException: Unexpected token 'catch'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:35
+  } catch (error) {
+    ^^^^^
+
+SyntaxError: Unexpected token 'catch'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+2024-12-05 23:55:03 : error: uncaughtException: Unexpected token '.'
+C:\Users\Disha\Desktop\2024\ProductNode\modules\products.service.js:23
+          replacements: [userData.email, userData.uname, {userData.password}],
+                                                                  ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Disha\Desktop\2024\ProductNode\modules\products.controller.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
